@@ -16,7 +16,6 @@ import {
   SiVite,
 } from 'react-icons/si';
 import { FaCss3Alt } from 'react-icons/fa';
-import { VscVscode } from 'react-icons/vsc';
 
 export const skillIcons: Record<string, React.ReactNode> = {
   HTML5: <SiHtml5 />,

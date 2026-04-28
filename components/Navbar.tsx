@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Moon, Sun, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { navLinks } from '@/lib/data';
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
